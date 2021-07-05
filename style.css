@@ -1,4 +1,4 @@
-.yellow-color{
+.orange-color{
     color: orange;
 }
 body{
@@ -7,6 +7,9 @@ body{
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +33,34 @@ h1{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.exprience-area{
+    background-image: url(images\/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 45%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+#fullstack-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer {
+    text-align: center;
 }
